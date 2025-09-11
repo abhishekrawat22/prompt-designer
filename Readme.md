@@ -9,7 +9,6 @@ PROMPTER is a modern, responsive web application that helps users craft effectiv
 *   **Interactive Keyword Selection**: Easily select and incorporate the most appropriate keywords into your final prompt.
 *   **Cohesive Prompt Synthesis**: Synthesizes all your inputs into a single, natural language prompt optimized for generative AI models.
 *   **Copy to Clipboard**: One-click functionality to copy the generated prompt for immediate use.
-*   **Progressive Web App (PWA)**: Installable on your device for quick access and an app-like experience.
 *   **Responsive Design**: A clean and intuitive user interface built with Tailwind CSS.
 
 ## Technologies Used
@@ -56,16 +55,36 @@ PROMPTER uses the Google Gemini API. You need to obtain an API key and configure
 
 ### 4. Run the Development Server
 
-- Install ***Live Server*** extension in your IDE and then click on the **Go Live** option on the bottom right corner of the IDE.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-This will start the development server.
+This will start the development server, usually at `http://localhost:5173`.
+
+### 5. Build for Production
+
+To create a production-ready build of the application:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+The build artifacts will be generated in the `dist` directory.
+
+## Deployment
+
+The `build` command creates a `dist` directory with all the necessary files for deployment. You can deploy this directory to any static site hosting service (e.g., Appwrite, Netlify, Vercel, GitHub Pages).
 
 ## Project Structure
 
 ```
 .
 ├── assets/
-│   └── ... (PWA and favicon related assets)
+│   └── ... (favicon related assets)
 ├── src/
 │   ├── index.css
 │   ├── script.js           # Main application functionality code
