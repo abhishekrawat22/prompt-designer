@@ -18,6 +18,7 @@ PROMPTER is a modern, responsive web application that helps users craft effectiv
     *   **HTML**
     *   **JavaScript**
     *   [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for rapid UI development.
+    *   [Vite](https://vitejs.dev/): A fast frontend build tool.
 *   **API Integration**:
     *   [Google Gemini API](https://ai.google.dev/): Used for intelligent keyword generation and synthesizing final prompts.
 
