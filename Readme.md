@@ -64,7 +64,7 @@ This will start the development server.
 
 ```
 .
-├── aseets/
+├── assets/
 │   └── ... (PWA and favicon related assets)
 ├── src/
 │   ├── index.css
