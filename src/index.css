@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+/* Custom scrollbar for a better look */
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+textarea::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: #4b5563;
+  border-radius: 10px;
+  border: 2px solid #1f2937;
+}
+textarea {
+  resize: none;
+}
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+/* Style for the disabled button */
+#generate-btn:disabled {
+  cursor: not-allowed;
+  background: linear-gradient(to right, #374151, #4b5563);
+  opacity: 0.6;
+}
