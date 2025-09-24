@@ -1,3 +1,6 @@
+## 🚀One of the Top 6 Trailblazers for the Devfest New Delhi 2025.
+## 🤖Among the Top AI Projects of the September Month in [Commudle](https://www.commudle.com/newsletters/53)
+
 # PROMPTER - Craft Your Perfect AI Prompt
 
 PROMPTER is a modern, responsive web application that helps users craft effective prompts for generative AI models. By breaking down the prompt creation process into structured inputs (Task, Context, References, and Keywords), PROMPTER assists users in generating clear, cohesive, and highly effective prompts.
