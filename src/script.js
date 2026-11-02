@@ -1,3 +1,5 @@
+import './index.css'
+
 document.addEventListener("DOMContentLoaded", () => {
   // --- DOM Element References ---
   const taskInput = document.getElementById("task");
